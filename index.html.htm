@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<title>La pizzer&iacutea</title>
+	</head>
+	<body>
+	    <body bgcolor="FCD179">
+		<center><h1>Bienvenido a la pizzer&iacutea</h1></center>
+		<center>	
+		<img src="Imagenes/pizza.jpg" alt="Imagen inexistente" height="200" border="1"/>
+		<img src="Imagenes/pizza2.jpg"  height="200"/>
+		</center>
+		<table border="1" style="width:100%">
+		    <tr>
+			<nav>
+			<th><a href="index.htm">Inicio</a></th>
+            <th><a href="13horas.htm">Nosotros</a></th>
+			</nav>
+		</tr>
+		</table>
+			<h1>Seleccione el  tama&ntildeo de la pizza</h1>
+	<form>
+		<input type="radio" name="tamano" value="p" />Peque&ntildea: RD$200<br/>
+		<input type="radio" name="tamano" value="m" />Mediana: RD$300
+		<br />	
+		<input type="radio" name="tamano" value="g" />Grande: RD$400<br />
+		<input type="radio" name="tamano" value="i" />Gigante: RD$500<br /><br />
+	
+		
+		<input type="submit" value="Enviar" />
+
+		&nbsp;&nbsp;
+		<input type="reset" value="Limpiar" />
+	</form>
+		
+		<h2>Seleccione los  ingredientes de la pizza Cada ingrediente cuesta de acuerdo con el tama&ntildeo de la pizza Peq. 40, Med. 50, Gde. 60, Gte. 70</h2>
+	<form>
+		<input type="checkbox" name="ingredientes" value="p" />Pepperonni<br/>
+		<input type="checkbox" name="ingredientes" value="j" />Jam&oacutean
+		<br />	
+		<input type="checkbox" name="ingredientes" value="e" />Extra Queso<br />
+		<input type="checkbox" name="ingredientes" value="m" />Ma&iacuteaz<br />
+		<input type="checkbox" name="ingredientes" value="v" />Vegetales<br />
+	    <input type="checkbox" name="ingredientes" value="h" />Hongos<br /><br />
+		
+		<input type="submit" value="Enviar" />
+
+		&nbsp;&nbsp;
+		<input type="reset" value="Limpiar" />
+	<h1>Seleccione el modo de pago</h1>
+	<form>
+		<select name="Pago" size="5">
+			<option value="E">Efectivo</option>
+			<option value="T">Tarjeta</option>
+		
+		</select>
+		<br /><br />
+		<select name="Pago" >
+			<option value="E">Efectivo</option>
+			<option value="T">Tarjeta</option>
+		</select>
+
+		<br />
+		<input type="submit" value="Enviar" />
+		&nbsp;&nbsp;
+		<input type="reset" value="Limpiar" />
+	</form>
+	<form>
+		<fieldset>
+			<legend>Datos Personales</legend>
+			<input type="hidden" name="secreto" value="famoso biberon" />
+			<br />
+
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre" /><br />
+			<label for="apellido">Apellido:</label>
+			<input type="text" name="apellido" /><br />
+			<label for="telefono">Tel&eacutefono:</label>
+			<input type="text" name="telefono" /><br />
+			<label for="direccion">Direccion:</label>
+			<input type="text" name="direccion" size="50" /><br />
+		</fieldset>	
+		
+		<button type="button" name="hola" value="Hola" onclick="javascript: alert('hola');" disabled>Boton</button>
+		<input type="submit" value="Enviar" />
+			&nbsp;&nbsp;
+			<input type="reset" value="Limpiar" />
+
+		</form>
+		
+
+</BODY>
+
+
+		
+		
